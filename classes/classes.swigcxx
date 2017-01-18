@@ -1,0 +1,9 @@
+/* File : classes.i */
+%module classes
+
+%{
+#include "classes.h"
+%}
+
+/* Let's just grab the original header file here */
+%include "classes.h"
