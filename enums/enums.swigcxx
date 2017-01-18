@@ -1,0 +1,10 @@
+/* File : enums.i */
+%module enums
+
+%{
+#include "enums.h"
+%}
+
+/* Let's just grab the original header file here */
+
+%include "enums.h"
