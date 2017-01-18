@@ -1,0 +1,13 @@
+language: go
+
+sudo: false
+
+go:
+  - tip
+
+install:
+  - go get -u ./...
+  - go get -u github.com/stretchr/testify/assert
+
+script:
+  - go test -v -bench=. -benchmem -cover ./...
