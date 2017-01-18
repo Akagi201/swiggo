@@ -1,4 +1,5 @@
-/* File : example.c */
+/* File : simple.c */
+#include "simple.h"
 
 /* A global variable */
 double Foo = 3.0;
@@ -14,4 +15,3 @@ int gcd(int x, int y) {
   }
   return g;
 }
-
