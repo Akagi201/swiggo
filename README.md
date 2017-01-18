@@ -8,7 +8,7 @@ Call C/C++ lib with the help of swig
 * For C++: `swig -go -cgo -c++ -intgosize 64 interface.i`
 
 ## Usage
-* `go get github.com/Akagi201/swiggo/simple`
+* `go get github.com/Akagi201/swiggo`
 
 ## TODO
 - [ ] Auto gen Go package files for godoc and IDE to browser Go definitions.
