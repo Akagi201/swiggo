@@ -1,4 +1,4 @@
-/* File : simple.i */
+/* File : simple.swig */
 %module simple
 %{
 #include "simple.h"
