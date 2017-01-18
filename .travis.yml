@@ -1,11 +1,12 @@
 language: go
 
-sudo: false
+sudo: true
 
 go:
   - tip
 
 install:
+  - sudo apt-get install -y swig
   - go get -u ./...
   - go get -u github.com/stretchr/testify/assert
 
