@@ -1,0 +1,11 @@
+/* File : callback.i */
+%module(directors="1") callback
+%{
+#include "callback.h"
+%}
+
+/* turn on director wrapping Callback */
+%feature("director") Callback;
+
+%include "callback.h"
+
